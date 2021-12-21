@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand
 from factory.django import DjangoModelFactory
 from factory import Faker
 from djangogramm.web.models import User, Post, Comment, Message
+#from web.models import User, Post, Comment, Message
 import random
 
 
